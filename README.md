@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner Image -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=200&section=header&text=Satyam%20Prajapati&fontSize=60&animation=fadeIn&fontAlignY=40&desc=B.Tech%20CSE%20(AI/ML)%20Student&descAlignY=65&descAlign=50&theme=dark" alt="Header Banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Satyam%20Prajapati&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=B.Tech%20CSE%20(AI/ML)%20Student&descAlignY=65&descAlign=50" alt="Header Banner" width="100%" />
 
 <!-- Typing Animation SVG -->
 <br>

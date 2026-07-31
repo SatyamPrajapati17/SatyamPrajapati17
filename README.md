@@ -32,11 +32,7 @@ Today, at 18, I am a B.Tech CSE (AI/ML) student and the **Founder of Namstag AI*
 ### 🎮 Pacman Contribution Graph
 
 <br>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
+<img src="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/output/pacman.svg" alt="Pac-Man eating a contribution graph" width="100%">
 
 </div>
 

@@ -1,11 +1,156 @@
 <div align="center">
 
-<!-- Banner Image -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=ffe9ce&height=200&section=header&text=Satyam%20Prajapati&fontSize=60&fontColor=000000&animation=fadeIn&fontAlignY=40&desc=B.Tech%20CSE%20(AI/ML)%20Student&descAlignY=65&descAlign=50" alt="Header Banner" width="100%" />
+<!-- Tech Banner SVG -->
+<svg width="100%" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
 
-<!-- Typing Animation SVG -->
-<br>
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=000000&center=true&vCenter=true&width=600&height=60&lines=Hi%2C+I'm+Satyam+Prajapati;AI%2FML+Engineering+Student;SaaS+Founder+%26+Innovator;Full-Stack+%26+Automation+Specialist" alt="Typing Animation" />
+<!-- Gradient Background -->
+<defs>
+
+<linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0F2027">
+<animate attributeName="stop-color"
+values="#0F2027;#00F5FF;#7F00FF;#FF0080;#0F2027"
+dur="10s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%" stop-color="#2C5364">
+<animate attributeName="stop-color"
+values="#2C5364;#7F00FF;#00F5FF;#FF0080;#2C5364"
+dur="10s"
+repeatCount="indefinite"/>
+</stop>
+</linearGradient>
+
+<!-- Glow Effect -->
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="300" fill="url(#gradient1)" rx="20"/>
+
+<!-- Tech Grid -->
+
+<g opacity="0.15">
+
+<path d="M0 50 H1200" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M0 100 H1200" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M0 150 H1200" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M0 200 H1200" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M0 250 H1200" stroke="#FFFFFF" stroke-width="1"/>
+
+<path d="M100 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M200 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M300 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M400 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M500 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M600 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M700 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M800 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M900 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M1000 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+<path d="M1100 0 V300" stroke="#FFFFFF" stroke-width="1"/>
+
+</g>
+
+<!-- Floating Circles -->
+
+<circle cx="200" cy="50" r="4" fill="#00FFFF">
+<animate attributeName="cy"
+values="50;250;50"
+dur="6s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="500" cy="250" r="6" fill="#FF00FF">
+<animate attributeName="cy"
+values="250;50;250"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="900" cy="80" r="5" fill="#00FF88">
+<animate attributeName="cy"
+values="80;220;80"
+dur="7s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<!-- Moving Beam -->
+
+<rect width="250" height="300"
+fill="white"
+opacity="0.05">
+
+<animate attributeName="x"
+values="-300;1500"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+
+<!-- Main Text -->
+
+<text
+x="50%"
+y="42%"
+font-size="52"
+font-family="Fira Code"
+font-weight="bold"
+fill="white"
+text-anchor="middle"
+filter="url(#glow)">
+
+SATYAM PRAJAPATI
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="50%"
+y="60%"
+font-size="28"
+font-family="Fira Code"
+fill="#00FFFF"
+text-anchor="middle">
+
+&lt; Full Stack Developer /&gt;
+
+</text>
+
+
+<!-- Animated Typing -->
+
+<text
+x="50%"
+y="78%"
+font-size="22"
+font-family="Fira Code"
+fill="#FFFFFF"
+text-anchor="middle">
+
+Building Amazing Projects...
+<animate attributeName="opacity"
+values="1;0.5;1"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+
+</svg>
 
 <!-- Visitor Counter -->
 <br><br>
@@ -33,13 +178,10 @@ Today, at 18, I am a B.Tech CSE (AI/ML) student and the **Founder of Namstag AI*
 
 <div align="center">
 
-### 🎮 Pacman Contribution Graph
+### 📈 GitHub Contribution Graph
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light )" srcset="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/SatyamPrajapati17/SatyamPrajapati17/pacman-output/pacman-contribution-graph.svg?game=pacman">
-</picture>
+<br>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SatyamPrajapati17&theme=discord" alt="GitHub Profile Details" width="100%" />
 
 </div>
 
@@ -117,13 +259,11 @@ Today, at 18, I am a B.Tech CSE (AI/ML) student and the **Founder of Namstag AI*
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=SatyamPrajapati17&show_icons=true&bg_color=ffe9ce&title_color=000000&text_color=000000&icon_color=fd4b38&hide_border=true" alt="GitHub Stats" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=SatyamPrajapati17&show_icons=true&bg_color=ffe9ce&title_color=000000&text_color=000000&icon_color=fd4b38&hide_border=true" alt="GitHub Stats" />
 <br><br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SatyamPrajapati17&background=ffe9ce&stroke=ffd80c&ring=8a53ff&fire=fd4b38&currStreakNum=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=SatyamPrajapati17&background=ffe9ce&stroke=ffd80c&ring=8a53ff&fire=fd4b38&currStreakNum=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&hide_border=true" alt="GitHub Streak" />
 <br><br>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SatyamPrajapati17&layout=compact&bg_color=ffe9ce&title_color=000000&text_color=000000&hide_border=true" alt="Top Languages" />
-<br><br>
-<img src="https://github-profile-trophy.vercel.app/?username=SatyamPrajapati17&no-frame=true&no-bg=true&margin-w=15&theme=discord" alt="GitHub Trophies" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=SatyamPrajapati17&layout=compact&bg_color=ffe9ce&title_color=000000&text_color=000000&hide_border=true" alt="Top Languages" />
 
 </div>
 
